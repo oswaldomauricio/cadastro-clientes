@@ -2,7 +2,7 @@
 <p> Este projeto foi feito para estudar a crição de barra de menus laterais interativa.</p>
 <p>Além disso, usei o projeto para estudar a troca de conteudos ao clicar em determinado botão.</p>
 
-<h2>DIFICULDADES E SOLUÇÕES<h2>
+<h2>DIFICULDADES E SOLUÇÕES</h2>
 <p>no projeto, utilizei elementos que precisavam ser alterados usando o javascript, minha maior dificuldade foi entender como funcionava a remoção dos elementos apos o clique no botão, para isso utilizei algumas linhas de codigo com querySelector e classList para solucionar estes problemas</p>
 
 <h2>IDEIA INICIAL</h2>
