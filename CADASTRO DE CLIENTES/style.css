@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*menu ativado*/
+:root{
+    --menu-bg-color: #90B9D0;
+}
+
+body{
+    display: flex;
+}

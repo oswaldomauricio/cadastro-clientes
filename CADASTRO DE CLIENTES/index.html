@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/menu.css">
+    <link rel="stylesheet" href="assets/btn-menu.css">
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="shortcut icon" href="images/LOGO.png" type="image/x-icon">
+    <title>CADASTRO DE CLIENTES | HOME</title>
+</head>
+<body>
+    <header>
+        <!--MENU ATIVADO-->
+        <section class="header-actived">
+            <div class="menu-header-actived">
+                <div class="logo">
+                    <img src="images/LOGO.png" alt="logo da empresa">
+                </div>
+                <div class="btn-menu-actived">
+                    <img id="teste" src="" alt="teste" style="display: none;">
+                    <button id="menu-actived"><img src="images/menu.svg" alt="botão de voltar menu"></button>
+                 </div>
+            </div>
+            <!-- abas do menu aberto-->
+            <section class="header-abas">
+                    <div class="header-abas-home">
+                        <button onclick="selecionado()" id="btn-home" class="btn-abas  menu-home">
+                            <a href="#">Formulario</a>
+                            <img src="images/img-menu/🦆 icon _home_.svg" alt="icone de casa, você voltar para a pagina inicial.">
+                        </button>
+                        <button class="btn-abas divergencia-home">
+                            <a href="#">Divergência</a>
+                            <img src="images/img-menu/🦆 icon _archive_.svg" alt="icone de casa, você voltar para a pagina inicial.">
+                        </button>
+                        <button onclick="selecionado_garantia()" id="btn-garantia" class="btn-abas  garantia-home">
+                            <a href="#">Garantia</a>
+                            <img src="images/img-menu/🦆 icon _badge check_.svg" alt="icone de casa, você voltar para a pagina inicial.">
+                        </button>
+                        <button class="btn-abas  chat-home">
+                            <a href="#">Chat</a>
+                            <img src="images/img-menu/🦆 icon _chat_.svg" alt="icone de casa, você voltar para a pagina inicial.">
+                        </button>
+                    </div>
+            </section>
+        </section>
+
+        <!--MENU DESATIVADO-->
+        <section class="header-disable">
+            <div class="header-desabilitado"> <!--ISSO É GAMBIARRA, NÃO MEXER-->
+                <div class="btn-menu-disable">
+                    <button id="menu-disable" onclick="btn-disable"><img id="foto" src="images/mdi_menu-close.svg" alt="botão de voltar menu"></button>
+                 </div>
+
+                 <!--MOSTRAR AS IMAGENS QUANDO O MENU ESTIVER FECHADO-->
+                 <section class="btn-abas-close">
+                     <button class="btn-abas-close  menu-menu-close">
+                         <a href="#"><img src="images/img-menu/🦆 icon _home_.svg" alt="icone de casa, você voltar para a pagina inicial."></a>
+                     </button>
+                      
+                     <button class="btn-abas-close  divergencia-menu-close">
+                        <a href="#"><img src="images/img-menu/🦆 icon _archive_.svg" alt="icone de casa, você voltar para a pagina inicial."></a>
+                    </button>
+
+                    <button class="btn-abas-close  garantia-menu-close">
+                        <a href="#"><img src="images/img-menu/🦆 icon _badge check_.svg" alt="icone de casa, você voltar para a pagina inicial."></a>
+                    </button>
+
+                    <button class="btn-abas-close  chat-menu-close">
+                        <a href="#"><img src="images/img-menu/🦆 icon _chat_.svg" alt="icone de casa, você voltar para a pagina inicial."></a>
+                    </button>
+                 </section>
+
+            </div>
+        </section>
+
+    </header>
+
+    
+    <main>
+        <section onclick="selecionado()" id="secao-formulario" style="display: none
+        ;">
+            <form action="#" method="post">
+                <div>
+                    <label for="nome">Nome: </label>
+                    <input type="text" id="nome">
+                </div>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="emai" id="email">
+                </div>
+                <div>
+                    <label for="mensagem">Mensagem: </label>
+                    <input type="msg">
+                </div>
+                <div class="btn-msg">
+                    <button id="msg" type="button" onclick="btn_msg()">Enviar sua mensagem</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+
+
+    <script src="index.js"></script>
+    <script src="assets/menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+
+/*menu ativado*/
+.menu-header-actived .btn-menu-actived #menu-actived{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/*menu desativado*/
+
+.header-disable .btn-menu-disable #menu-disable{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0 0 105px 0;
+}
+
+/* MENU ABAS*/
+.header-abas-home{
+    display: flex;
+    flex-direction: column;
+    margin: 130px 0;
+}
+.btn-abas{
+    margin: 5px 0;
+    border: none;
+    background-color: #90B9D0;
+    cursor: pointer;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px;
+    align-items: center;
+    font-weight: bold;
+}
+.btn-abas{
+    background-color: #90B9D0;
+}
+
+.btn-abas:hover{
+    background-color: #7396AA;
+}
+.btn-abas a{
+    text-decoration: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+/*IMAGENS DAS ABAS QUANDO O MENU ESTIVER FECHADO*/
+
+.btn-abas-close{
+    display: flex;
+    flex-direction: column;
+    padding: 45px 0 0 0;
+    margin: 3px 0;
+    
+}
+.btn-abas-close img{
+    margin: 10px 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+}
+
+.btn-abas-close button{
+    border: none;
+    background-color: transparent;
+    padding: 10px 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #90B9D0;
+    max-height: 45px;
+}
+.btn-abas-close button:hover{
+    background-color: #7396AA;
+}
+
